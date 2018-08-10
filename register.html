@@ -23,7 +23,7 @@
     </div>
     <div class="footer-basic" style="height:200px;background-color:rgb(0,0,0);">
         <footer>
-            <div class="social"><a href="http://instagram.com/xmaiku"><i class="icon ion-social-instagram" style="color:rgb(255,255,255);"></i></a><a href="http://facebook.com/itsmemaiku"><i class="icon ion-social-facebook" style="color:rgb(255,255,255);"></i></a></div>
+            <div class="social"><a><i class="icon ion-social-instagram" id="myButton1" style="color:rgb(255,255,255);"></i></a><a><i class="icon ion-social-facebook" id="myButton2" style="color:rgb(255,255,255);"></i></a></div>
             <ul
                 class="list-unstyled">
                 <li><a href="#" style="color:#ffffff;">Home</a></li>
@@ -37,6 +37,14 @@
     </div>
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+	<script type="text/javascript">
+			document.getElementById("myButton1").onclick = function () {
+			location.href = "http://instagram.com/xmaiku";
+			};
+			document.getElementById("myButton2").onclick = function () {
+			location.href = "http://facebook.com/itsmemaiku";
+			};
+			</script>
 </body>
 
 </html>
